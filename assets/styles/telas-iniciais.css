@@ -1,21 +1,78 @@
 header{
-    background-color: #41bfc4;
-    height: 70px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 300;
-    letter-spacing: 0.1rem;
-    text-align: center;
-    text-transform: uppercase;
-    position: relative;
-    overflow: hidden;
+  background-color: #41bfc4;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
 }
 header section, header nav{
-    display: flex;
+
+  display: flex;
+  border: 10px;
+}
+nav {
+
+ width: 100%;
+ display: flex;
+ position: fixed;
+justify-content: end;
+
+      }
+
+nav li {
+   float: left;
+   list-style: none;
+  margin-left: 15px;
+  padding-right: 20px;
+
+
+      }
+nav ul {
+ position: fixed
+}
+
+nav ul li a {
+
+color: FFFFFF;
+text-decoration: underline;
+}
+
+.principal{
+margin-top: 80px;
+margin-left: 10%;
+}
+
+.especialistas {
+border: 2px solid ;
+border-color: #21E9F1;
+border-radius: 60px;
+
+margin-bottom: 15px;
+width: 70%;
+}
+
+.especialistas h4 {
+margin-left: 25%;
+color: #41BFC4;
+}
+
+h2 {
+color: #1e8285;
+text-decoration: underline #62c3c6;
+}
+#icon-user{
+position: absolute;
+margin-left: 4%;
+margin-top: 3%;
 }

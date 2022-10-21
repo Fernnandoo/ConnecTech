@@ -107,3 +107,11 @@ select, select option{
         justify-content: center;
     }
 }
+.btn-voltar:hover{
+    background-color: #41bfc4;
+    color: #fcfcfc;
+}
+.btn-enviar:hover{
+    background-color: #fcfcfc;
+    color: #5CA4A7;
+}
